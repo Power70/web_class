@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+</head>
+<body>
+    <form action="./some/route" method="POST">
+        <h1>This an HTML Form</h1>
+        <div>
+            <label for="firstName" name="firstName"> First Name:</label>
+            <input type="text" name="firstName" id="firstName">
+        </div>
+        <div>
+            <label for="lastName" name="lastName">Last Name:</label>
+            <input type="text" name="lastName" id="firstName">
+        </div>
+        <div>
+            <div>
+            <label for="number" name="number">Phone Number:</label>
+            <input type="text" name="number" id="number" min="1" max="10">
+        </div>
+        <div>
+            <label for="email" name="email">Email Address:</label>
+            <input type="email" name="email" id="firstName">
+        </div>
+        <div>
+            <label for="date" name="date">DOB:</label>
+            <input type="date" name="date" id="date">
+        </div>
+        <div>
+            <label for="Inputfile">Input File</label>
+            <input type="file" name="Inputfile" id="Inputfile">
+        </div>
+        <div>
+            <label for="Country">Select</label>
+            <select name="country" id="country">
+                <option value="Nig">NIG</option>
+                <option value="Spain">Spain</option>
+                <option value="SKN">SKN</option>
+            </select>
+        </div>
+        <div>
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</body>
+</html>
